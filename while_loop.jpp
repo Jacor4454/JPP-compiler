@@ -1,0 +1,9 @@
+$value 0
+$one 1
+#WHILE $one{
+LDA $value
+ADD $one
+PRT 0
+STB $value
+}
+END 0

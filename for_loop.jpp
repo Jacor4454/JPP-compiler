@@ -1,0 +1,10 @@
+$value 1
+$one 1
+$zero 0
+@FOR$looper=7:>$zero:-$one{
+LDA $value
+LSH 0
+PRT 0
+STB $value
+}
+END 0
